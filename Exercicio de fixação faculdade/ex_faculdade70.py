@@ -16,7 +16,7 @@ print('-' * len('Bem-vindo a lojá de açai da Debys'))
 print('Digite "Sair" para encerrar')
 print('-' * 33)
 
-preco = 0
+total = 0
 
 while True:
         op = input('Qual Item desja (CP) ou (AC): ').upper().strip()
@@ -27,32 +27,39 @@ while True:
             print(f'Total a pagar: R$ {preco:.2f}')
             break
 
+        preco = 0
+
         if op == 'CP':
             tam = input('Qual Tamanho do Item (P, M ou G): ').upper().strip()
             if tam == 'P':
                 preco = 9
-                preco += preco
+
             elif tam == 'M':
                 preco = 14
-                preco += preco
+
             elif tam == 'G':
                 preco = 18
-                preco += preco
+
         elif op == 'AC':
             tam = input('Qual Tamanho do Item (P, M ou G): ').upper().strip()
             if tam == 'P':
                 preco = 11
-                preco += preco
+
             elif tam == 'M':
                 preco = 14
-                preco += preco
+
             elif tam == 'G':
                 preco = 20
-                preco += preco
+
         else:
             print('Valor invalido, tente novamente!')
             print('-' * 33)
             continue
+
+        total += preco
+        print('-' * 33)
+        print(f'Você escolheu {op} ({tam}) e o preço é R$ {preco:.2f}!')
+        print('-' * 33)
 
         while True:
             op2 = input('Deseja continuar comprando (S/N): ').upper().strip()
@@ -61,7 +68,7 @@ while True:
                 print('Valor invalido, tente novamente!')
             elif op2 == 'N':
                 sleep(1)
-                print(f'Total a pagar: R$ {preco:.2f}')
+                print(f'Total a pagar: R$ {total:.2f}')
                 break
             elif op2 == 'S':
                 break
