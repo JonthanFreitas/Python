@@ -1,8 +1,6 @@
-📚 Repositório — Análise e Desenvolvimento de Sistemas
+🐍 Estudos de Python
 
-Este repositório reúne meus estudos, exercícios, atividades e projetos desenvolvidos durante a graduação em Análise e Desenvolvimento de Sistemas (ADS) na UNINTER.
-
-O objetivo é registrar minha evolução acadêmica e prática ao longo do curso, principalmente nas áreas de programação, desenvolvimento Backend e Banco de Dados.
+Repositório destinado aos meus estudos, exercícios e atividades de Python desenvolvidos durante a graduação em Análise e Desenvolvimento de Sistemas (ADS) na UNINTER.
 
 🎓 Formação
 
@@ -10,24 +8,34 @@ Análise e Desenvolvimento de Sistemas — UNINTER
 📅 Início: Junho de 2026
 🎯 Previsão de conclusão: Junho de 2028
 
-💻 Conteúdos estudados
+📚 Conteúdos
 
-Durante a graduação, este repositório poderá conter atividades relacionadas a:
+Neste repositório estão registrados exercícios e práticas relacionados ao aprendizado de Python, incluindo:
 
-🐍 Python
+Variáveis e tipos de dados
 
-☕ Java
+Entrada e saída de dados
 
-🗄️ Banco de Dados
+Operadores
 
-🐬 MySQL
+Estruturas condicionais
 
-💾 SQL
+Estruturas de repetição
 
-🧠 Lógica de Programação
+Listas, tuplas e dicionários
 
-🧩 Programação Orientada a Objetos
+Funções
 
-🌐 Desenvolvimento Web
+Lógica de programação
 
-🔧 Ferramentas e fundamentos de desenvolvimento de software
+Estruturas de dados
+
+Programação Orientada a Objetos
+
+Projetos e atividades desenvolvidos durante a faculdade
+
+🎯 Objetivo
+
+Utilizar este repositório para praticar Python, registrar minha evolução e organizar os exercícios e projetos desenvolvidos durante a graduação.
+
+Este é um repositório de estudos e faz parte do meu processo de aprendizado em programação.
